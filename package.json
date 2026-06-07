@@ -1,0 +1,9 @@
+{
+  "name": "servidor-localhost",
+  "version": "1.0.0",
+  "description": "Servidor simple con HTML y JavaScript usando Node.js",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  }
+}

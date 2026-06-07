@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Servidor Localhost</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1>¡Hola desde Node.js!</h1>
+      <p>Este sitio se sirve desde un servidor local en <code>localhost</code>.</p>
+
+      <section class="card">
+        <h2>Contador interactivo</h2>
+        <p class="counter-display">Contador: <span id="counter">0</span></p>
+        <div class="buttons">
+          <button id="btn-decrease" type="button">-</button>
+          <button id="btn-reset" type="button">Reiniciar</button>
+          <button id="btn-increase" type="button">+</button>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2>Mensaje personalizado</h2>
+        <input id="name-input" type="text" placeholder="Escribe tu nombre" />
+        <button id="btn-greet" type="button">Saludar</button>
+        <p id="greeting" class="greeting"></p>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
